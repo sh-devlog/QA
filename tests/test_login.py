@@ -1,5 +1,5 @@
-import time
-import pytest
+import time # 실무에 잘 안씀. 디버깅용. WebDriverWait 주로 사용
+import pytest # pytest + 엑셀 파라미터화 => 반복 테스트 자동화
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
@@ -50,3 +50,4 @@ def test_login(driver, user_id, user_pw, expected):
         except NoAlertPresentException:
             # alert가 없으면 실패 처리
             assert False, "로그인 실패인데 alert가 뜨지 않았음"
+
