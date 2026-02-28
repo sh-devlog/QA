@@ -1,11 +1,10 @@
 # Selenium이란?
 웹 브라우저를 자동으로 조작해서 테스트할 수 있게 해주는 오픈소스 자동화 도구<br>
+파이썬, 자바, 자바스크립트 등 여러 언어를 지원<br>
 #### < 구성요소 >
 Selenium WebDriver: 브라우저(Chrome, Edge 등)를 실제로 제어하는 핵심 도구<br>
 Selenium IDE: 간단한 녹화 기반 자동화 도구<br>
 Selenium Grid: 여러 환경에서 병렬 테스트 실행<br>
-#### < 특징 >
-파이썬, 자바, 자바스크립트 등 여러 언어를 지원<br>
 #### < 설치과정 >
 1. 파이썬 설치, VS Code 실행
 2. 터미널 창에 python -m pip install selenium 입력
